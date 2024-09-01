@@ -1,5 +1,5 @@
 import { github, linkedin, twitter } from "../assets";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 function Footer() {
   return (
     <footer className="bg-primary flex flex-col md:flex-row items-center justify-center md:justify-around py-6 gap-4 flex-wrap shadow-lg shadow-white">
