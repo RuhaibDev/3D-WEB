@@ -80,9 +80,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Ayush Agarwal",
+          to_name: "Afaq Razaq",
           from_email: form.email,
-          to_email: "ayushagarwal8126@gmail.com",
+          to_email: "afaqwebdev@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

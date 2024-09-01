@@ -8,10 +8,10 @@ function Footer() {
         <p className="text-sm text-white">
           Email:{" "}
           <a
-            href="mailto:ayushagarwal8126@gmail.com"
+            href="mailto:afaqwebdev@gmail.com"
             className="underline text-secondary hover:text-white cursor-pointer"
           >
-            ayushagarwal8126@gmail.com
+            afaqwebdev@gmail.com
           </a>
         </p>
         <p className="text-sm text-white">
@@ -77,7 +77,7 @@ function Footer() {
         </Tilt>
       </div>
       <p className="text-sm text-secondary">
-        &copy; 2024 Ayush Agarwal. All rights reserved.
+        &copy; 2024 Afaq Razaq. All rights reserved.
       </p>
     </footer>
   );
