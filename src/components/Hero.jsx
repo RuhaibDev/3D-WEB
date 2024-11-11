@@ -17,10 +17,10 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi 🙋‍♂️ <br className="block lg:hidden" /> I'm{" "}
-            <span className="text-[#915EFF]">Afaq</span>
+            <span className="text-[#915EFF]">Ruhaib</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Mern Stack developer 🧑‍💻 I develop interactive{" "}
+            I'm a Front End Developer 🧑‍💻. I develop interactive{" "}
             <br className="xl:block hidden" /> user interfaces.
           </p>
         </div>
