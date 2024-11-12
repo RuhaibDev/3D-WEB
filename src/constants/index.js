@@ -17,7 +17,7 @@ import {
   threejs,
   reactQuery,
   mile9,
-  
+
 } from "../assets";
 
 export const navLinks = [
@@ -151,7 +151,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: socialBond,
+    image: hirix,
     source_code_link: "https://github.com/AyushAgarwal15/social-bond",
     live_link: "https://srehan-spectrum.surge.sh/",
   },
