@@ -17,6 +17,7 @@ import {
   threejs,
   reactQuery,
   mile9,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -74,24 +75,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux",
-    icon: redux,
-  },
-  {
     name: "React Query",
     icon: reactQuery,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "git",
@@ -101,41 +90,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "Core Java",
-    icon: java,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "Associate Software Engineer",
-    company_name: "Mile9 (A Product Based Tech Startup)",
+    title: "Front End Developer",
+    company_name: "Fiverr",
     icon: mile9,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Present",
-    company_link: "https://www.linkedin.com/company/mile9/mycompany/",
+    date: "June 2022 - Present",
+    company_link: "https://www.fiverr.com/",
     points: [
-      "Portfolio Development - Developed a dynamic and responsive portfolio site for the company using Next.js, enhancing the online presence and improving user engagement.",
-      "Code Optimization - Implemented strategic code refactoring, leveraging React components and hooks to enhance reusability and code maintainability. Build reusable components that can be used across all apps. Optimized component structure and state management, resulting in a 40% codebase reduction and a 35% faster app load time.",
-      "Feature Enhancement - Spearheaded the implementation of new features, improving application functionality and user experience.",
-      "Bug Resolution & Testing - Conducted thorough end-to-end testing from a developer's perspective, identifying and resolving bugs to maintain a 100% bug-free system.",
-      "Tech Stack - React.js, Next.js, Javascript, Typescript, Tailwind CSS, Html, CSS, Git, Github, React Third Party Libraries - React Query, React Table etc.",
-    ],
+      
+        "Hospital Dashboard System - Developed a responsive hospital dashboard in React, enabling real-time data visualization for patient tracking and staff management. Integrated secure authentication and role-based access to maintain data privacy.",
+        
+        "Gym Mobile UI Website - Designed a mobile-first, responsive UI for a gym website using HTML and CSS, creating an intuitive layout for showcasing trainers, schedules, and membership plans to enhance user experience on all devices.",
+        
+        "Car Parts Platform - Built a front-end automotive catalog system with advanced search functionality, organized product listings, and detailed product pages for easy navigation and product discovery.",
+        
+        "E-commerce and Clothing Customization Platform - Developed a user-friendly e-commerce platform with a custom clothing tool, featuring drag-and-drop design options for personalized apparel and real-time previews to elevate the shopping experience.",
+        
+        "Portfolio Development - Created a dynamic, responsive portfolio site using Next.js, improving user engagement and online presence. Implemented reusable components and optimized state management for enhanced performance and maintainability."
+      
+      ],
   },
-  {
-    title: "Frontend Developer Intern",
-    company_name: "Mile9 (A Product Based Tech Startup)",
-    icon: mile9,
-    iconBg: "#E6DEDD",
-    date: "Oct 2023 - Feb 2024",
-    company_link: "https://www.linkedin.com/company/mile9/mycompany/",
-    points: [
-      "Gained Expertise in Cutting-Edge Web Technologies - Acquired practical expertise in innovative technologies such as React.js, HTML, CSS, JavaScript, TypeScript, and Tailwind CSS.",
-      "Enhanced System Functionality - Implemented critical features such as a comprehensive billing form system, report review comments, and a patient data filtering modal, significantly enhancing system functionality",
-      "Bug Resolution and Quality Assurance - Contributed to bug resolution and conducted end-to-end testing, ensuring a seamless user experience and achieving a 100% bug-free system.",
-    ],
-  },
+  
 ];
 
 const worksText = `Following projects showcases my skills and experience through
@@ -146,20 +126,20 @@ const worksText = `Following projects showcases my skills and experience through
 
 const projects = [
   {
-    name: "Social Bond",
+    name: "hospital Dashboard System",
     description:
-      "A seamless social platform connecting users through engaging content and top-tier features. Key Features - Secure authentication, top creator showcases, like/save options, detailed posts, & user-friendly profile management.",
+      "A comprehensive hospital dashboard system that streamlines healthcare management. Key Features - Real-time patient tracking, appointment scheduling, doctor and staff management, data analytics, secure login, and user-friendly interface for seamless navigation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
       {
@@ -167,63 +147,63 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "appwrite",
+        name: "react-swiper",
         color: "pink-text-gradient",
       },
     ],
     image: socialBond,
     source_code_link: "https://github.com/AyushAgarwal15/social-bond",
-    live_link: "https://social-bond.vercel.app/sign-in",
+    live_link: "https://srehan-spectrum.surge.sh/",
   },
   {
-    name: "Hirix",
+    name: "AU AutoMotive",
     description:
-      "HIRIX is a modern job portal that connects job seekers with employers and helps employers find bright candidates. Key Features - Job Listing, Job Search & Filtering, Application Tracking, Saved Jobs, Post Jobs, Check Applicants etc",
+      "An intuitive front-end automotive platform showcasing a comprehensive catalog of car parts. Key Features - Advanced search options, organized product catalog, detailed product pages for each part, and a responsive design for smooth navigation and an enhanced user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-swiper",
         color: "orange-text-gradient",
       },
       {
-        name: "Clerk",
+        name: "material ui",
         color: "green-text-gradient",
       },
       {
-        name: "react-hook-form",
+        name: "react-toastify",
         color: "pink-text-gradient",
       },
     ],
     image: hirix,
-    source_code_link: "https://github.com/AyushAgarwal15/Hirix",
-    live_link: "https://hirix.vercel.app/",
+    source_code_link: "https://github.com/RuhaibDev/CarParts_Web",
+    live_link: "https://car-parts-web.vercel.app/",
   },
   {
-    name: "SUMIT",
+    name: "E-Commerce And Clothing Customization Plateform",
     description:
-      "An article summarizer that converts long articles into clear and brief summaries. Key Features - Article Summarization, URL History, Instant Historical Summaries.",
+      "An innovative e-commerce platform with a unique clothing customization tool, empowering users to create personalized apparel. Key Features - User-friendly interface, drag-and-drop customization, multiple logo and text options, PNG image uploads, real-time previews, secure checkout, and personalized product management for a seamless shopping experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "raect-router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react-swiper",
         color: "pink-text-gradient",
       },
       {
-        name: "local-storage",
+        name: "react-drag-and-drop",
         color: "orange-text-gradient",
       },
     ],

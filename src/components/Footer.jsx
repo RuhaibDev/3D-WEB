@@ -8,19 +8,19 @@ function Footer() {
         <p className="text-sm text-white">
           Email:{" "}
           <a
-            href="mailto:afaqwebdev@gmail.com"
+            href="mailto:mruhaibmustafa@gmail.com"
             className="underline text-secondary hover:text-white cursor-pointer"
           >
-            afaqwebdev@gmail.com
+            mruhaibmustafa@gmail.com
           </a>
         </p>
         <p className="text-sm text-white">
           Phone:{" "}
           <a
-            href="tel:+918126749140"
+            href="tel:+923004919272"
             className="underline text-secondary cursor-pointer hover:text-white"
           >
-            +91 8126749140
+            +92 3004919272
           </a>
         </p>
       </div>
@@ -34,7 +34,7 @@ function Footer() {
         >
           {" "}
           <a
-            href="https://github.com/AyushAgarwal15"
+            href="https://github.com/RuhaibDev/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,35 +49,16 @@ function Footer() {
           }}
         >
           <a
-            href="https://www.linkedin.com/in/ayushagarwal15/"
+            href="https://www.linkedin.com/in/m-ruhaib-qureshi-5a17a722a/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={linkedin} alt="linkedin" className="w-10 h-10" />
           </a>
         </Tilt>
-        <Tilt
-          options={{
-            max: 50,
-            scale: 1,
-            speed: 450,
-          }}
-        >
-          <a
-            href="https://x.com/Ayush_Agg15?t=d5m1lTalQ3vncaHMvaDpgA&s=09"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={twitter}
-              alt="twitter"
-              className="w-10 h-10 rounded-full"
-            />
-          </a>
-        </Tilt>
       </div>
       <p className="text-sm text-secondary">
-        &copy; 2024 Afaq Razaq. All rights reserved.
+        &copy; 2024 Ruhaib Mustafa. All rights reserved.
       </p>
     </footer>
   );
