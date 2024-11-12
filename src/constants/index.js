@@ -17,7 +17,9 @@ import {
   threejs,
   reactQuery,
   mile9,
-
+  gig,
+  gig1,
+  gig2,
 } from "../assets";
 
 export const navLinks = [
@@ -126,7 +128,7 @@ const worksText = `Following projects showcases my skills and experience through
 
 const projects = [
   {
-    name: "hospital Dashboard System",
+    name: "Hospital Dashboard System",
     description:
       "A comprehensive hospital dashboard system that streamlines healthcare management. Key Features - Real-time patient tracking, appointment scheduling, doctor and staff management, data analytics, secure login, and user-friendly interface for seamless navigation.",
     tags: [
@@ -139,7 +141,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "css",
         color: "pink-text-gradient",
       },
       {
@@ -151,7 +153,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hirix,
+    image: gig,
     source_code_link: "https://github.com/AyushAgarwal15/social-bond",
     live_link: "https://srehan-spectrum.surge.sh/",
   },
@@ -181,7 +183,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hirix,
+    image: gig1,
     source_code_link: "https://github.com/RuhaibDev/CarParts_Web",
     live_link: "https://car-parts-web.vercel.app/",
   },
@@ -195,7 +197,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "raect-router",
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
@@ -207,7 +209,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: sumit,
+    image: gig2,
     source_code_link: "https://github.com/AyushAgarwal15/SumIt",
     live_link: "https://sum-it-pi.vercel.app/",
   },

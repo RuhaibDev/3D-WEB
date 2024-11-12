@@ -28,6 +28,9 @@ import mile9 from "./company/mile9.png";
 import socialBond from "./social-bond.png";
 import sumit from "./sumit.png";
 import hirix from "./hirix.png";
+import gig from "./gig3.png"
+import gig1 from './gig4.png'
+import gig2 from './gig.png'
 
 export {
   logo,
@@ -57,4 +60,7 @@ export {
   hirix,
   reactQuery,
   mile9,
+  gig,
+  gig1,
+  gig2,
 };
